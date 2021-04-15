@@ -1,0 +1,33 @@
+
+
+.addContactForm {
+    border: 1px solid black;
+    padding: 40px;
+    font-size: 20px;
+
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.formItem * {
+    margin-bottom: 5px;
+}
+
+.formItem:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.formBtn {
+    /* text-align: center; */
+    width: 40%;
+    margin: auto;
+}
+
+.btnText {
+    margin: auto;
+    font-size: 22px;
+
+}
